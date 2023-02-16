@@ -1,0 +1,1 @@
+<? php echo ($x=1)? "bg-warning":($x=2)? "bg-primary":($x=3)? "bg-success":($x=4)? "bg-secondary":($x=5)? "bg-info":"bg-danger" ?>

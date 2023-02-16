@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;1,300&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
+@font-face {
+    font-family: 'Basurero Humano';
+    src: url('/public/font/Basurero_Humano.ttf');
+}
+
+:root{
+    --google1-font-style:'Righteous', cursive;
+    --red-hat-display-1: 'Red Hat Display', sans-serif;
+    --amaranth-sans-serif: 'Amaranth', sans-serif;
+    --bg-color-first:'#E2E5DE';
+    --logo-font: 'Basurero Humano';
+}
+
+.my-logo-font{
+    font-family:var(--google1-font-style);
+}
+
+.my-primary-font{
+    font-family: var(--google1-font-style);
+}
+
+.my-secondary-font{
+    font-family: var(--red-hat-display-1);
+}
+
+.my-third-font{
+    font-family: var(--amaranth-sans-serif);
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
